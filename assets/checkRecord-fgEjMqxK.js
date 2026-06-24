@@ -1,0 +1,1 @@
+import{r as t}from"./request-ccX63rPT.js";function n(c){return t.get("/check-records",{params:c})}function o(c,e){return t.post("/check-in",{studentId:c,roomId:e})}function s(c,e){return t.post("/check-out",{studentId:c,roomId:e})}export{o as a,s as c,n as g};

@@ -1,0 +1,1 @@
+import{r as n}from"./request-ccX63rPT.js";function t(i){return n.get("/buildings",{params:i})}function e(){return n.get("/buildings/all")}function d(i){return n.post("/building",i)}function l(i){return n.put("/building",i)}function g(i){return n.delete(`/building/${i}`)}export{d as a,e as b,g as d,t as g,l as u};
